@@ -7,7 +7,7 @@ class Ball {
           density:0.8
       }
       this.body = Bodies.circle(x,y,20,options);
-      this.image = loadImage("sprites/ball.png");
+      this.image = loadImage("ball.png");
       World.add(world, this.body);
     }
     display(){
